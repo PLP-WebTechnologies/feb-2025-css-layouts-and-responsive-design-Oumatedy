@@ -1,0 +1,140 @@
+/* General Reset and Basic Styling */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  nav {
+    background-color: #0033cc;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.1em;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Style for the Chelsea section */
+  .chelsea-section {
+    padding: 20px;
+    background-color: #f4f4f4;
+    margin-top: 20px;
+    border-radius: 8px;
+  }
+  
+  .chelsea-section h2 {
+    color: #0033cc; /* Chelsea Blue */
+    font-size: 2em;
+    margin-bottom: 15px;
+  }
+  
+  .chelsea-section p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  .chelsea-section h3 {
+    font-size: 1.3em;
+    color: #0033cc;
+    margin-top: 20px;
+  }
+  
+  .chelsea-section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .chelsea-section ul li {
+    font-size: 1.1em;
+    color: #444;
+    margin-bottom: 8px;
+  }
+  
+  .chelsea-logo {
+    width: 200px;
+    height: auto;
+    margin-top: 20px;
+  }
+  
+  /* Style for Major Achievements */
+  .achievements {
+    background-color: #e1e1e1;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 8px;
+  }
+  
+  .achievements h3 {
+    font-size: 1.4em;
+    color: #0033cc;
+  }
+  
+  .achievements ul {
+    margin-top: 10px;
+  }
+  
+  /* Style for Recent Performance */
+  .performance {
+    padding: 15px;
+    margin-top: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+  }
+  
+  .performance h3 {
+    font-size: 1.4em;
+    color: #0033cc;
+  }
+  
+  /* Fun Facts Section */
+  .fun-facts {
+    background-color: #e1e1e1;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 8px;
+  }
+  
+  .fun-facts h3 {
+    font-size: 1.4em;
+    color: #0033cc;
+  }
+  
+  .fun-facts ul {
+    margin-top: 10px;
+  }
+  
+  /* Legends Gallery */
+  .legends-gallery {
+    padding: 15px;
+    margin-top: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+  }
+  
+  .legends-gallery h3 {
+    font-size: 1.4em;
+    color: #0033cc;
+  }
+  
+  .gallery {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .gallery img {
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+  }
+  
